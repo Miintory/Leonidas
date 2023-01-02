@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonidas</title>
+    <link rel="stylesheet" href="./my_reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./common.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="Leonidas.js" defer></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hd">
+        <div class="nav_bg"></div>
+        <nav class="nav">
+          <div class="top_menu mw">
+            <ul class="top_list">
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">장바구니</a></li>
+              <li><a href="#">주문조회</a></li>
+              <li><a href="#">마이페이지</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+            <div class="ham">
+              <span class="line_bar"></span>
+              <span class="line_bar"></span>
+              <span class="line_bar"></span>
+            </div>
+          </div>
+        </nav>
+        <h1>
+          <a href="#"><img src="./img/logo.png" alt="" /></a>
+        </h1>
+        <div class="whitelogo">
+          <a href="#"></a><img src="./img/mbi.png" alt="" /> <a href="#"></a
+          ><img src="./img/mbt.png" alt="" />
+        </div>
+        <div class="menu">
+          <button>GiftSet</button>
+          <button>Ballotin</button>
+          <button>Handmade</button>
+          <button>Chocolate</button>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </header>
+      <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ sec1 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 시작 -->
+      <section class="sec1 mw">
+        <h2 hidden>메인배너</h2>
+        <!-- Swiper -->
+        <div class="sec1_b">
+          <div class="swiper mainbanner">
+            <ul class="swiper-wrapper wrapper01">
+              <li class="swiper-slide slide01">
+                <a href="#"><img src="./img/b11.jpg" alt="banner" /></a>
+              </li>
+              <li class="swiper-slide slide01">
+                <a href="#"><img src="./img/b2.png" alt="banner" /></a>
+              </li>
+              <li class="swiper-slide slide01">
+                <a href="#"><img src="./img/b3.png" alt="banner" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-button-next next1"></div>
+          <div class="swiper-button-prev prev1"></div>
+          <div class="swiper-pagination pg1"></div>
+        </div>
+      </section>
+      <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ sec2 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 시작 -->
+      <section class="sec2">
+        <h2 class="mw">선물용 초콜릿</h2>
+        <!-- Swiper -->
+        <article>
+          <div class="swiper sec2swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide gift">
+                <div class="giftimg">
+                  <img src="./img/Gift Set/list1.png" alt="" />
+                </div>
+                <div class="gift_con">
+                  <div class="gift_text">
+                    <p>레오니다스 컬렉션 13구</p>
+                    <p><span>29,800원</span></p>
+                    <a href="#">더보기</a>
+                  </div>
+                  <div class="detail">
+                    <p>Detail</p>
+                    <ul class="detail_con">
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 다크.png" alt="" />
+                        <p>나폴리탄 다크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 다크닙스.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 다크닙스</p>
+                      </li>
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 밀크.png" alt="" />
+                        <p>나폴리탄 밀크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 포요틴.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 포요틴</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide gift">
+                <div class="giftimg">
+                  <img src="./img/Gift Set/list4.jpg" alt="" />
+                </div>
+                <div class="gift_con">
+                  <div class="gift_text">
+                    <p>레오니다스 컬렉션 13구</p>
+                    <p><span>29,800원</span></p>
+                    <a href="#">더보기</a>
+                  </div>
+                  <div class="detail">
+                    <p>Detail</p>
+                    <ul class="detail_con">
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 다크.png" alt="" />
+                        <p>나폴리탄 다크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 다크닙스.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 다크닙스</p>
+                      </li>
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 밀크.png" alt="" />
+                        <p>나폴리탄 밀크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 포요틴.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 포요틴</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide gift">
+                <div class="giftimg">
+                  <img src="./img/Gift Set/list3.jpg" alt="" />
+                </div>
+                <div class="gift_con">
+                  <div class="gift_text">
+                    <p>레오니다스 컬렉션 13구</p>
+                    <p><span>29,800원</span></p>
+                    <a href="#">더보기</a>
+                  </div>
+                  <div class="detail">
+                    <p>Detail</p>
+                    <ul class="detail_con">
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 다크.png" alt="" />
+                        <p>나폴리탄 다크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 다크닙스.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 다크닙스</p>
+                      </li>
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 밀크.png" alt="" />
+                        <p>나폴리탄 밀크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 포요틴.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 포요틴</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide gift">
+                <div class="giftimg">
+                  <img src="./img/Gift Set/list4.jpg" alt="" />
+                </div>
+                <div class="gift_con">
+                  <div class="gift_text">
+                    <p>레오니다스 컬렉션 13구</p>
+                    <p><span>29,800원</span></p>
+                    <a href="#">더보기</a>
+                  </div>
+                  <div class="detail">
+                    <p>Detail</p>
+                    <ul class="detail_con">
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 다크.png" alt="" />
+                        <p>나폴리탄 다크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 다크닙스.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 다크닙스</p>
+                      </li>
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 밀크.png" alt="" />
+                        <p>나폴리탄 밀크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 포요틴.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 포요틴</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="swiper-slide gift">
+                <div class="giftimg">
+                  <img src="./img/Gift Set/list5.jpg" alt="" />
+                </div>
+                <div class="gift_con">
+                  <div class="gift_text">
+                    <p>레오니다스 컬렉션 13구</p>
+                    <p><span>29,800원</span></p>
+                    <a href="#">더보기</a>
+                  </div>
+                  <div class="detail">
+                    <ul class="detail_con">
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 다크.png" alt="" />
+                        <p>나폴리탄 다크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 다크닙스.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 다크닙스</p>
+                      </li>
+                      <li>
+                        <img src="./img/디테일메뉴/나폴리탄 밀크.png" alt="" />
+                        <p>나폴리탄 밀크</p>
+                      </li>
+                      <li>
+                        <img
+                          src="./img/디테일메뉴/나폴리탄 포요틴.png"
+                          alt=""
+                        />
+                        <p>나폴리탄 포요틴</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-pagination pg2"></div>
+        </article>
+      </section>
+
+      <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ sec3 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 시작 -->
+
+      <section class="sec3">
+        <h2 class="mw">수제 초콜릿</h2>
+        <div class="swiper sec3swiper">
+          <ul class="swiper-wrapper choco_list">
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h1.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Forever red praline<br />
+                  (포에버 레드 프랄린)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h2.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Gianduja<br />
+                  (잔두자)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h3.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Louise fondante<br />
+                  (루이 다크)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h4.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Perle orange dark<br />
+                  (펠르 오렌지 다크)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h5.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Forever red praline<br />
+                  (포에버 레드 프랄린)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h6.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Marron fondant <br />
+                  (마론 다크)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h7.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Buche pralne fondant<br />
+                  (부쉬 프랄린 다크)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="inner">
+                <img src="./img/handmade/h1.png" alt="" />
+              </div>
+              <div class="choco_text">
+                <p>
+                  Forever red praline<br />
+                  (포에버 레드 프랄린)
+                </p>
+                <p>2,500원</p>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-button-next next2"></div>
+          <div class="swiper-button-prev prev2"></div>
+        </div>
+      </section>
+
+      <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ sec4 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 시작 -->
+
+      <section class="sec4 mw">
+        <h2 hidden></h2>
+        <div class="video">
+          <video
+            poster="./img/video thumbnail.jpg"
+            muted
+            loop
+            autoplay
+            preload="auto"
+          >
+            <source src="./img/movie.mp4" />
+          </video>
+        </div>
+
+        <article class="sec4_con">
+          <div class="border">
+            <h2>
+              NOTICE
+              <p>more</p>
+              <i class="fa-solid fa-plus"></i>
+            </h2>
+            <ul class="notice_list">
+              <li>
+                <p>화이트데이 레오니다스 오프라인 행사 일정</p>
+                <p>2022-11-10</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>[레오니다스]신용카드 결제가 안되시는 고객님!</p>
+                <p>2022-09-22</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>"Special White Day"</p>
+                <p>2022-05-19</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>레오니다스 완판!!</p>
+                <p>2022-01-28</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>2022 설날 연휴 택배배송 안내</p>
+                <p>2021-12-01</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>행복한 발렌타인데이 & 즐거운 설날!!</p>
+                <p>2021-12-20</p>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="border">
+            <h2>
+              REVIEW
+              <p>more</p>
+              <i class="fa-solid fa-plus"></i>
+            </h2>
+            <ul class="review_list">
+              <li>
+                <p>행복을 느낀 하루하루</p>
+                <p>2022-11-07</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>패키지가 고급스러워서 좋습니다</p>
+                <p>2022-09-18</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>블라튼 15구 맛있어요</p>
+                <p>2022-05-10</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>반응이 좋네요</p>
+                <p>2022-01-25</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>만족하네요!! 잘샀습니다</p>
+                <p>2021-12-07</p>
+                <a href="#"></a>
+              </li>
+              <li>
+                <p>크리스마스 선물로 최고였어요</p>
+                <p>2021-12-26</p>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <footer class="foot">
+        <div class="foot_con mw">
+          <div class="footlogo"><img src="./img/logowhite.png" alt="" /></div>
+          <ul>
+            <li class="dec">
+              <p class="foot_title">
+                COSTOMER CENTER
+                <i class="fa-solid fa-caret-up"></i>
+              </p>
+              <div class="foot_text">
+                <span>02-318-1346</span>
+                <p>Fax : 02-900-2653</p>
+                <p>메일: leonidas08@naver.com</p>
+              </div>
+            </li>
+            <li class="dec">
+              <p class="foot_title">
+                BANK INFORMATION<i class="fa-solid fa-caret-up"></i>
+              </p>
+              <div class="foot_text">
+                <span>국민 875401-01-526944</span>
+                <p>예금주: (주)오픈찬스</p>
+              </div>
+            </li>
+            <li class="dec">
+              <p class="foot_title">
+                COSTOMER SERVICE
+                <i class="fa-solid fa-caret-up"></i>
+              </p>
+
+              <div class="foot_text">
+                <a href="#"><p>상품문의</p></a>
+                <a href="#"><p>구매후기</p></a>
+                <a href="#"><p>공지사항</p></a>
+                <a href="#"><p>이벤트</p></a>
+              </div>
+            </li>
+            <li class="dec">
+              <p class="foot_title">
+                CONNECT WITH US<i class="fa-solid fa-caret-up"></i>
+              </p>
+
+              <div class="foot_text">
+                <img src="./img/instagram.png" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="foot_bot mw">
+          <p>
+            (주)오픈찬스(04537)<br />서울특별시 중구 명동길 62 (명동2가)
+            재원빌딩 레오니다스 l 대표이사 : 정창국 <br />사업자등록번호 :
+            101-86-32037 [사업자정보확인]통신판매업 신고번호 : 중구 제08172호<br />
+            전화 : 02-318-1346 l 팩스 : 02-900-2653 l 이메일 :
+            leonidas08@naver.com l 개인정보관리책임자 : 구현상<br />
+            Copyright © 2015 Leonidas. All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
